@@ -1,0 +1,5 @@
+2025/04/13 22:19:50 Data Processing System starting up
+2025/04/13 22:19:50 Adding tasks to the queue
+2025/04/13 22:19:50 Starting 5 worker goroutines
+2025/04/13 22:19:50 Waiting for all workers to complete
+2025/04/13 22:19:52 All workers have completed, system shutting down
