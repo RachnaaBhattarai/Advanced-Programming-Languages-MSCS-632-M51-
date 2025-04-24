@@ -1,0 +1,39 @@
+% Query 1: Who are John's children?
+?- parent(john, Child).
+% Expected output: Child = james; Child = jennifer.
+
+% Query 2: Who are the parents of Robert?
+?- parent(Parent, robert).
+% Expected output: Parent = james; Parent = patricia.
+
+% Query 3: Who are James's siblings?
+?- sibling(james, Sibling).
+% Expected output: Sibling = jennifer.
+
+% Query 4: Is Barbara a cousin of William?
+?- cousin(barbara, william).
+% Expected output: true.
+
+% Query 5: Who are Robert's grandparents?
+?- grandparent(Grandparent, robert).
+% Expected output: Grandparent = john; Grandparent = mary.
+
+% Query 6: Who are all descendants of John?
+?- descendant(Descendant, john).
+% Expected output: Multiple results showing all descendants in the family tree.
+
+% Query 7: Who are Linda's cousins?
+?- cousin(linda, Cousin).
+% Expected output: Cousin = charles.
+
+% Query 8: Is George a full sibling of Linda?
+?- full_sibling(george, linda).
+% Expected output: true.
+
+% Query 9: Who are Mary's grandchildren?
+?- grandparent(mary, Grandchild).
+% Expected output: Grandchild = robert; Grandchild = barbara.
+
+% Query 10: Who are all ancestors of Charles?
+?- ancestor(Ancestor, charles).
+% Expected output: Multiple results showing all ancestors of Charles.
